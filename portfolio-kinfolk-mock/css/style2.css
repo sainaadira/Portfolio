@@ -1,0 +1,384 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.flex {
+  display: flex;
+}
+
+.italic {
+  font-style: italic;
+  font-size: .9em;
+  margin: 0;
+}
+
+.border {
+  border: 1px solid lightgrey
+}
+
+.border-btm {
+  border-bottom: 1px solid lightgrey;
+  padding: 8px;
+}
+
+.link-btm {
+  color: black;
+  display: inline-block;
+  font-size: .6em;
+  font-family: 'Arimo', sans-serif;
+  border-bottom: 1px solid #e34307;
+}
+
+.link-bottom {
+  color: black;
+  display: inline-block;
+  font-size: 1em;
+  font-family: 'Arimo', sans-serif;
+  border-bottom: 1px solid #e34307;
+}
+
+.bold {
+  font-family: 'Arimo', sans-serif;
+  font-weight: bold;
+  font-size: 0.7em;
+  width: 68%;
+  margin: 3px 0 0 6%;
+}
+
+/* *******************************************
+              NAVIGATION
+******************************************* */
+.nav-container {
+  width: 100%;
+  padding-right: 3%;
+}
+
+.nav-container header {
+  width: 100%;
+}
+
+.nav-container header nav {
+  width: 100%;
+  border-bottom: 1px solid lightgrey;
+  margin-left: 1%;
+}
+
+.nav-container header nav ul {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.nav-container header nav ul li {
+  list-style: none;
+}
+
+.nav-container header nav ul li .fa-bars {
+  font-size: .8em;
+}
+
+.nav-container header nav ul h1 {
+  margin: 0;
+  font-family: 'Libre Caslon Display', serif;
+}
+
+.nav-container header nav ul a {
+  color: black;
+  font-size: .7em;
+  text-decoration: none;
+  font-family: 'Arimo', sans-serif;
+}
+
+.nav-container header nav ul .fa-search {
+  font-size: .8em;
+}
+
+/* *******************************************
+          MAIN CONTAINING SECTION
+******************************************* */
+.container {
+  flex-wrap: wrap;
+  max-height: 1000px;
+  margin: 10px;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3em;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  padding: 3.1rem;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* *******************************************
+        TOP LEFT CONTAINER
+******************************************* */
+.left-container {
+  flex-direction: row;
+  width: 50%;
+  max-height: 100%;
+  border-right: 1px solid lightgrey;
+}
+
+.top-containing-section{
+  display:flex;
+}
+
+.left-container-img {
+  width: 71%;
+  height: 545px;
+  margin-left: 16%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* *******************************************
+        TOP MID CONTAINER
+******************************************* */
+span {
+  font-size: .7em;
+  margin: 0;
+  font-family: 'Arimo', sans-serif;
+}
+
+.mid-container {
+  flex-direction: column;
+  width: 15%;
+  max-height: 100%;
+}
+
+.photography, .words {
+  padding: .7rem;
+}
+
+.mid-container-image {
+  padding-top: 15rem;
+  width: 100%;
+}
+
+.mid-image {
+  width: 92%;
+  margin: 0 auto;
+  /* height: 172px; */
+
+
+}
+
+/* *******************************************
+        TOP RIGHT CONTAINER
+******************************************* */
+.right-container {
+  flex-direction: column;
+  width: 35%;
+  padding: 2rem;
+  border-left: 1px solid lightgrey;
+}
+
+.main-content {
+  font-size: .8em;
+  line-height: 1.5
+}
+
+.main-content-paragraph {
+  font-family: 'Arimo', sans-serif;
+  font-size: .7em;
+  font-weight: bold;
+  line-height: 1.5;
+  padding-top: 1rem;
+}
+
+a {
+  color: grey;
+  font-family: 'Arimo', sans-serif;
+  font-size: .7em;
+  text-decoration: none;
+}
+
+/* *******************************************
+      BOTTOM MAIN CONTAINER
+******************************************* */
+.bottom-container {
+  padding-top: 3rem;
+  flex-flow: wrap;
+  flex-direction: row;
+  margin: 40px;
+  border-top: 1px solid lightgrey;
+}
+
+.containing-images {
+  display: flex;
+
+
+}
+
+.inner-image-container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+h5 {
+  text-align: center;
+  font-family: 'Arimo', sans-serif;
+  font-size: .7em;
+  font-weight: lighter;
+  width: 100%;
+  padding-bottom: 3rem;
+}
+
+.btm-image {
+  width: 50%;
+}
+
+.btm-image img {
+  width: 85%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.btm-heading {
+  font-size: 0.7em;
+  font-family: 'Arimo', sans-serif;
+  font-weight: bold;
+}
+
+.btm-para {
+  font-size: .8em;
+  width: 93%;
+  font-family: 'Libre Caslon Display', serif;
+}
+
+/* *******************************************
+                  FOOTER
+******************************************* */
+footer {
+  width: 100%;
+  padding: 1rem;
+  font-size: .8em;
+  text-transform: uppercase;
+  color: #c9c8c6;
+  font-family: 'Arimo', sans-serif;
+  border-top: 1px solid lightgrey;
+}
+
+.footer-socials {
+  width: 73%;
+  padding-top: 1rem;
+  letter-spacing: 7px;
+}
+
+.footer-copyright {
+  width: 67%;
+}
+
+.footer-site {
+  width: 19%;
+  padding-top: 1rem;
+}
+
+/* *******************************************
+                  MEDIA QUERIES
+******************************************* */
+/* ~~~~~~~~~~~~~~~~~~
+      SMALL  MOBILE
+/* ~~~~~~~~~~~~~~~~~~ */
+@media (min-width: 320px) and (max-width: 767px)  {
+
+  .italic {
+    font-size: 1.2em;
+  }
+
+  h2 {
+    padding: 2rem;
+  }
+
+  .nav-container header nav ul a {
+    display: none;
+  }
+
+
+  .top-containing-section {
+    flex-direction: column;
+}
+
+  .main-content {
+    font-size: 1.1em;
+  }
+
+  .left-container, .right-container {
+    width: 100%;
+    border: none;
+  }
+
+  .right-container {
+    padding: 0;
+  }
+
+  .left-container-img {
+    width: 76%;
+    margin-left: 12%;
+  }
+
+  .mid-container {
+    border: none;
+    width: 100%;
+    padding-top: 1rem;
+  }
+
+  .mid-container-image {
+    padding: 0;
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+
+  .mid-image {
+    width: 96%;
+    padding: 4px;
+  }
+
+  .main-content-paragraph {
+    font-size: .9em;
+  }
+
+  .bottom-container {
+    padding-top: 1rem;
+    margin: 0;
+    width: 100%;
+    padding-bottom: 4rem;
+  }
+
+  .containing-images{
+    flex-direction: column;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      IPAD - DESKTOP
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@media (min-width:768px) and (max-width:1023px) {
+
+
+.top-containing-section{
+  flex-direction: row;
+
+}
+
+  .containing-images{
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,664 @@
+* {
+  box-sizing: border-box;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+/* <!-- **************************************************************************
+
+                             HEADER /// NAV
+************************************************************************** --> */
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  display: inline;
+  margin-right: 4%;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav a {
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: .9em;
+}
+
+.nav-one {
+  padding-top: 1px;
+  height: 45px;
+  background-color: #ececec;
+}
+
+.nav-one ul li a {
+  margin-left: 3%;
+}
+
+.nav-two {
+  height: 48px;
+  width: 100%;
+}
+
+/* .border {
+  border-right: 1px solid grey;
+} */
+.navLinks {
+  width: 68%;
+}
+
+.fa-bars {
+  visibility: hidden;
+}
+
+.navigation {
+  margin-right: 5%;
+}
+
+.navSearch {
+  color: white;
+  font-size: .9em;
+  width: 16.9%;
+  height: 48px;
+  margin-left: -4%;
+  padding: 11px 2%;
+  font-family: 'Roboto', sans-serif;
+  background-color: #3a5e29;
+}
+
+.fa-search {
+  margin-left: 59%;
+  padding-top: .5rem;
+}
+
+/* <!-- **************************************************************************
+
+                             SECTION A
+************************************************************************** --> */
+.mainA {
+  width: 100%;
+  height: 600px;
+  background-image: url('../images/topbg.jpg');
+}
+
+.leftSec {
+  width: 45%;
+  height: 566px;
+  margin: 23px 0 0 25px;
+  background-image: url('../images/nadhori.jpg');
+  background-size: cover;
+}
+
+.rightSec {
+  width: 48%;
+  margin-left: 5%;
+}
+
+.topA {
+  width: 100%;
+  margin-top: -7px;
+  background-image: url(../images/nadhori3.jpg);
+  background-size: cover;
+  padding-bottom: 19.4rem;
+}
+
+.a-btn {
+  width: 28%;
+  height: 35px;
+  margin: 13px 0px 0 -1px;
+  font-size: 1em;
+  border: none;
+  color: white;
+  background-color: #cf8289;
+}
+
+h1 {
+  font-size: 4.8em;
+  font-weight: bold;
+  color: white;
+  font-family: 'Lexend Deca', sans-serif;
+  margin: 177px 1px 0px -5px;
+}
+
+.bot-left, .bot-right {
+  width: 50%;
+  height: 290px;
+  /* border: 1px solid grey; */
+}
+
+.bot-left {
+  background-image: url('../images/nadhori2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bot-right {
+  background-image: url('../images/nadhori.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* <!-- **************************************************************************
+
+                             SECTION B
+************************************************************************** --> */
+/* .mainB {
+  width: 100%;
+  height: 250px;
+  border: 1px solid grey;
+}
+
+.midA, .midB, .midC {
+  width: 33.3%;
+  height: 249px;
+  background-image: url('../images/nad4.jpg');
+  background-repeat: no-repeat;
+} */
+/* <!-- **************************************************************************
+
+                             SECTION C
+************************************************************************** --> */
+.mainC {
+  height: 295px;
+  width: 100%;
+  padding-top: 28px;
+  padding-left: 28%;
+  /* border: 1px solid grey; */
+}
+
+.cHeading {
+  margin-left: 13%;
+  font-size: 2em;
+  color: darkgrey;
+}
+
+.cPara {
+  margin-left: 23%;
+  color: darkgrey;
+  font-family: 'Roboto', sans-serif;
+}
+
+.cOne, .cTwo, .cThree, .cFour {
+  width: 15%;
+  height: 90px;
+  margin: 13px 4px 0px 0;
+  /* border: 1px solid grey; */
+  background-image: url('../images/smsq.jpg');
+  background-size: cover;
+}
+
+/* <!-- **************************************************************************
+
+                             SECTION D
+************************************************************************** --> */
+.mainD {
+  width: 100%;
+  height: 658px;
+  /* border: 1px solid grey; */
+}
+
+.topD {
+  width: 100%;
+  padding: 1rem;
+  background-color: #3a5e29;
+}
+
+.topDPara {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  width: 1%;
+  padding: 0 0 0 2rem;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.leftDSubPara {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  padding-left: 2rem;
+}
+
+.bot-leftD, .bot-rightD {
+  width: 50%;
+  padding-bottom: 20rem;
+}
+
+.leftD, .rightD {
+  width: 50%;
+  height: 672px;
+}
+
+.bot-leftD {
+  background-image: url('../images/mo2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: center;
+}
+
+.bot-rightD {
+  background-image: url('../images/mo3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.rightD {
+  background-image: url('../images/mo.jpg');
+  background-size: cover;
+}
+
+/* <!-- **************************************************************************
+
+                             SECTION E
+************************************************************************** --> */
+.mainE {
+  width: 100%;
+  /* border: 1px solid grey; */
+}
+
+.rightE, .leftE {
+  width: 50%;
+  height: 319px;
+  /* border: 1px solid grey; */
+}
+
+.rightE {
+  background-color: #cf8289;
+}
+
+.leftE {
+  background-color: #cf8289;
+  color: white;
+  padding: 2rem 0rem 3rem 1rem;
+}
+
+.leftEPara {
+  font-size: 2.5em;
+  color: white;
+  font-weight: bold;
+  font-family: 'Lexend Deca', sans-serif;
+  margin: 31px 0px -5px 3%;
+}
+
+.leftESubPara {
+  font-family: 'Roboto', sans-serif;
+  width: 82%;
+  margin-left: 3%;
+}
+
+.eImage {
+  width: 100%;
+  height: 319px;
+  background-image: url(../images/p1.jpg);
+  background-size: cover;
+}
+
+/* <!-- **************************************************************************
+
+                             SECTION F
+************************************************************************** --> */
+.mainF {
+  width: 100%;
+  height: 320px;
+  /* border: 1px solid grey; */
+}
+
+.rightF {
+  background-color: #f7f9fa;
+}
+
+.fTopPara {
+  font-family: 'Roboto', sans-serif;
+  color: darkgrey;
+  font-size: .9em;
+  margin: 26px 0px 0 5px;
+}
+
+.rightFSubPara {
+  font-family: 'Roboto', sans-serif;
+  color: darkgrey;
+  font-size: 1em;
+}
+
+.fHeading {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 2.3em;
+  color: #3a5e29;
+}
+
+.leftF {
+  background-image: url('../images/p2.jpg');
+  background-size: cover;
+}
+
+.rightF, .leftF {
+  width: 50%;
+  height: 333px;
+  /* border: 1px solid grey; */
+  padding-left: 2%;
+  margin-top: -1px;
+}
+
+/* <!-- **************************************************************************
+
+                             SECTION G
+************************************************************************** --> */
+.mainG {
+  width: 100%;
+}
+
+.rightG, .leftG {
+  width: 50%;
+}
+
+.rightG {
+  background-color: #3a5e29;
+}
+
+.leftG {
+  background-color: #3a5e29;
+  color: white;
+  padding: 1rem 0rem 5.1rem 2rem;
+}
+
+.leftGPara {
+  font-size: 3em;
+  color: white;
+  font-family: 'Lexend Deca', sans-serif;
+  margin: 31px 0px -5px 0px;
+}
+
+.leftGSubPara {
+  font-family: 'Roboto', sans-serif;
+  width: 82%;
+}
+
+.g-btn {
+  width: 28%;
+  height: 35px;
+  margin: 18px 2%;
+  font-size: 1em;
+  border: none;
+  color: black;
+  background-color: white;
+}
+
+.gImage {
+  width: 100%;
+  height: 318px;
+  background-image: url(../images/nadhori2.jpg);
+  background-size: cover;
+}
+
+/* ****************************************
+
+            MEDIA QUERIES
+
+***************************************** */
+/* MOBILE PHONES */
+/* ~~~~~~~~~~~~~~~~~~~~~~ */
+@media (min-width:481px) and (max-width: 767px) {
+  .hidden {
+    display: none;
+    visibility: hidden;
+  }
+
+  /* ****************************************
+              NAVIGATION
+  ***************************************** */
+  .navLinks ul li a {
+    display: none;
+  }
+
+  .navLinks nav ul {
+    margin-right: 5%;
+  }
+
+  .navLinks {
+    width: 60%;
+  }
+
+  .navSearch {
+    background-color: inherit;
+    height: auto;
+    width: auto;
+    display: inline-block;
+  }
+
+  .fa-search {
+    color: black;
+    padding-top: .5rem;
+  }
+
+  .nav-bars {
+    color: yellow;
+  }
+
+  /* ****************************************
+              SECTION A
+  ***************************************** */
+  .mainA {
+    background-image: none;
+    margin: 0;
+  }
+
+  .topA {
+    margin: 0;
+  }
+
+  .leftSec {
+    width: 100%;
+    margin: 0;
+  }
+
+  .rightSec {
+    margin: 0;
+  }
+
+  .bot-left, .bot-right {
+    height: 351px;
+  }
+
+  h1 {
+    font-size: 3em;
+    width: 46%;
+    margin: 205px 1px 0px 17px;
+  }
+
+  .a-btn {
+    margin: 13px 0px 0 32px;
+  }
+
+  .rightSec, .bot-left, .bot-right {
+    width: 100%;
+  }
+
+  /* ****************************************
+              SECTION C
+  ***************************************** */
+  .mainC {
+    display: none;
+  }
+
+  /* ****************************************
+              SECTION D
+  ***************************************** */
+  .leftD {
+    width: 100%;
+  }
+
+  .leftDSubPara {
+    margin-left: 4%;
+  }
+
+  /* .bot-leftD, .bot-rightD {
+    width: 50%;
+  } */
+  .rightD {
+    width: 100%;
+  }
+
+  /* ****************************************
+              SECTION E
+  ***************************************** */
+  .leftE {
+    width: 100%;
+  }
+
+  .leftEPara {
+    font-size: 2.2em;
+    margin: 31px 0px -5px 3px;
+  }
+
+  .leftESubPara {
+    margin-left: 2%;
+  }
+
+  .eImage {
+    width: 200%;
+  }
+
+  /* ****************************************
+              SECTION F
+  ***************************************** */
+  .leftF {
+    width: 100%;
+  }
+
+  .rightF {
+    width: 100%;
+  }
+
+  .fHeading {
+    font-size: 2em;
+    margin: 6px 0 0 1%;
+  }
+
+  /* ****************************************
+              SECTION G
+  ***************************************** */
+  .leftG, .rightG {
+    width: 100%;
+  }
+
+  .leftGPara {
+    font-size: 2em;
+    margin: 31px 0px -5px 3%;
+  }
+
+  .leftGSubPara {
+    margin-left: 3%;
+  }
+
+  .g-btn {
+    width: 33%;
+    margin-left: 3.5%;
+  }
+}
+
+/* TABLET- DESKTOP */
+/* ~~~~~~~~~~~~~~~~~~~~~~ */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* ****************************************
+              NAVIGATION
+  ***************************************** */
+  .navLinks {
+    width: 64%;
+  }
+
+  .navSearch {
+    width: 17.4%;
+  }
+
+  .fa-search {
+    margin: 0;
+    padding-left: 4rem;
+  }
+
+  /* ****************************************
+              SECTION A
+  ***************************************** */
+  .leftSec, .rightSec {
+    width: 100%;
+    margin: 0;
+  }
+
+  .leftSec {
+    margin: -7px 0 0 0;
+  }
+
+  .topA {
+    padding-bottom: 24.4rem;
+  }
+
+  h1 {
+    margin: 175px 0px 0px 58%;
+    width: 50%;
+  }
+
+  .bot-left, .bot-right {
+    height: 336px;
+  }
+
+
+  .a-btn {
+    width: 18%;
+    margin: 13px 0px 0 64%;
+  }
+
+  /* ****************************************
+              SECTION B
+  ***************************************** */
+  /* ****************************************
+              SECTION C
+  ***************************************** */
+  .mainC {
+    display: none;
+  }
+
+  /* ****************************************
+              SECTION D
+  ***************************************** */
+  /* ****************************************
+              SECTION E
+  ***************************************** */
+  /* ****************************************
+              SECTION F
+  ***************************************** */
+  /* ****************************************
+              SECTION G
+  ***************************************** */
+  .g-btn {
+    width: 42%;
+  }
+
+  .leftG {
+    padding: 3rem 0rem 9rem 2rem;
+  }
+
+  .leftGPara {
+    font-size: 2.2em;
+  }
+
+  .gImage {
+    padding-bottom: 24.8rem;
+  }
+}
